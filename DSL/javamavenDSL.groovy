@@ -1,9 +1,9 @@
 job('Java Maven App DSL') {
     description('Java Maven App con DSL para el curso de Jenkins')
     scm {
-        git('https://github.com/macloujulian/simple-java-maven-app.git', 'master') { node ->
-            node / gitConfigName('macloujulian')
-            node / gitConfigEmail('macloujulian@gmail.com')
+        git('https://github.com/sahurtado88/simple-java-maven-app.git', 'master') { node ->
+            node / gitConfigName('sahurtado88')
+            node / gitConfigEmail('sahurtad@gmail.com')
         }
     }
     steps {
